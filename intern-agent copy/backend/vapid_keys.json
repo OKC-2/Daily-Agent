@@ -1,7 +1,0 @@
-{
-    // VAPID 密钥对配置
-    // 请填写你的 VAPID 公私钥，用于 Web Push 通知
-    // 可使用在线工具生成: https://web-push-codelab.glitch.me/
-    "private": "",
-    "public": ""
-}
