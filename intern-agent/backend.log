@@ -1,0 +1,57 @@
+/Users/idea/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-05-14 11:05:49,412 - __main__ - WARNING - Redis 连接失败，限流将使用内存存储: Error 61 connecting to localhost:6379. Connection refused.
+INFO:     Started server process [73415]
+INFO:     Waiting for application startup.
+2026-05-14 11:05:49,461 - __main__ - INFO - 正在初始化数据库...
+2026-05-14 11:05:49,461 - db - INFO - 开始初始化数据库表...
+2026-05-14 11:05:49,477 - db - INFO - 数据库表初始化完成
+2026-05-14 11:05:49,477 - __main__ - INFO - 数据库初始化完成
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51106 - "GET /health HTTP/1.1" 200 OK
+2026-05-14 11:06:59,990 - __main__ - INFO - 获取学习记录列表: skip=0, limit=30, count=3
+2026-05-14 11:06:59,992 - __main__ - ERROR - 获取学习记录列表失败: 1 validation error for DailyLogResponse
+learnings.1.category
+  String should match pattern '^(tech|business|tool|soft_skill)$' [type=string_pattern_mismatch, input_value='专有名词', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+2026-05-14 11:06:59,992 - db - ERROR - 数据库操作异常: 500: 获取学习记录失败: 1 validation error for DailyLogResponse
+learnings.1.category
+  String should match pattern '^(tech|business|tool|soft_skill)$' [type=string_pattern_mismatch, input_value='专有名词', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+2026-05-14 11:06:59,994 - __main__ - ERROR - HTTP 500: 获取学习记录失败: 1 validation error for DailyLogResponse
+learnings.1.category
+  String should match pattern '^(tech|business|tool|soft_skill)$' [type=string_pattern_mismatch, input_value='专有名词', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch - http://localhost:8000/logs
+INFO:     127.0.0.1:51129 - "GET /logs HTTP/1.1" 500 Internal Server Error
+2026-05-14 11:08:23,072 - __main__ - INFO - 获取学习记录列表: skip=0, limit=30, count=3
+2026-05-14 11:08:23,073 - __main__ - ERROR - 获取学习记录列表失败: 1 validation error for DailyLogResponse
+learnings.1.category
+  String should match pattern '^(tech|business|tool|soft_skill)$' [type=string_pattern_mismatch, input_value='专有名词', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+2026-05-14 11:08:23,073 - db - ERROR - 数据库操作异常: 500: 获取学习记录失败: 1 validation error for DailyLogResponse
+learnings.1.category
+  String should match pattern '^(tech|business|tool|soft_skill)$' [type=string_pattern_mismatch, input_value='专有名词', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+2026-05-14 11:08:23,074 - __main__ - ERROR - HTTP 500: 获取学习记录失败: 1 validation error for DailyLogResponse
+learnings.1.category
+  String should match pattern '^(tech|business|tool|soft_skill)$' [type=string_pattern_mismatch, input_value='专有名词', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch - http://localhost:8000/logs
+INFO:     127.0.0.1:51177 - "GET /logs HTTP/1.1" 500 Internal Server Error
+2026-05-14 11:09:37,899 - __main__ - INFO - 获取学习记录列表: skip=0, limit=30, count=3
+2026-05-14 11:09:37,899 - __main__ - ERROR - 获取学习记录列表失败: 1 validation error for DailyLogResponse
+learnings.1.category
+  String should match pattern '^(tech|business|tool|soft_skill)$' [type=string_pattern_mismatch, input_value='专有名词', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+2026-05-14 11:09:37,900 - db - ERROR - 数据库操作异常: 500: 获取学习记录失败: 1 validation error for DailyLogResponse
+learnings.1.category
+  String should match pattern '^(tech|business|tool|soft_skill)$' [type=string_pattern_mismatch, input_value='专有名词', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch
+2026-05-14 11:09:37,900 - __main__ - ERROR - HTTP 500: 获取学习记录失败: 1 validation error for DailyLogResponse
+learnings.1.category
+  String should match pattern '^(tech|business|tool|soft_skill)$' [type=string_pattern_mismatch, input_value='专有名词', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_pattern_mismatch - http://localhost:8000/logs
+INFO:     127.0.0.1:51230 - "GET /logs HTTP/1.1" 500 Internal Server Error
+2026-05-14 11:10:33,504 - __main__ - INFO - 获取学习记录列表: skip=0, limit=30, count=3
+INFO:     127.0.0.1:51258 - "GET /logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51270 - "GET /health HTTP/1.1" 200 OK
